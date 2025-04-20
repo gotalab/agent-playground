@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version < '3.12.4' and sys_platform != 'win32'",
@@ -18,6 +19,7 @@ dependencies = [
     { name = "autogen-ext" },
     { name = "devtools" },
     { name = "docker" },
+    { name = "google-adk" },
     { name = "ipykernel" },
     { name = "langchain-core" },
     { name = "langchain-openai" },
@@ -37,6 +39,7 @@ requires-dist = [
     { name = "autogen-ext", specifier = "==0.4.0.dev8" },
     { name = "devtools", specifier = ">=0.12.2" },
     { name = "docker", specifier = ">=7.1.0" },
+    { name = "google-adk", specifier = ">=0.0.1" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "langchain-core", specifier = ">=0.3.21" },
     { name = "langchain-openai", specifier = ">=0.2.11" },
@@ -663,6 +666,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b6/a1/106fd9fa2dd989b6fb36e5893961f82992cf676381707253e0bf93eb1662/GitPython-3.1.43.tar.gz", hash = "sha256:35f314a9f878467f5453cc1fee295c3e18e52f1b99f10f6cf5b1682e968a9e7c", size = 214149 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl", hash = "sha256:eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff", size = 207337 },
+]
+
+[[package]]
+name = "google-adk"
+version = "0.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0b/2c/0865745f3c532a9f8cfcfdd8fd7db9288e8ba8f3ca64722938f95b2d26ca/google_adk-0.0.1.tar.gz", hash = "sha256:df43f5d9e91066bf3e8dbee49efb56acca177da3cb170e1f793cb55eaadc56f9", size = 5343 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/15/0d/9b971b144200bc3905abd520249275d2ccca627d63de2001f8a7308ab253/google_adk-0.0.1-py3-none-any.whl", hash = "sha256:3901e48732413d02fdba0a0cd02d965325253fc19166f181049daf93f473f225", size = 5521 },
 ]
 
 [[package]]

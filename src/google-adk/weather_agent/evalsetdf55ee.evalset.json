@@ -1,0 +1,25 @@
+[
+  {
+    "name": "caseb7750e",
+    "data": [
+      {
+        "query": "What is today's weather in New York?",
+        "expected_tool_use": [
+          {
+            "tool_name": "get_weather",
+            "tool_input": {
+              "city": "New York"
+            }
+          }
+        ],
+        "expected_intermediate_agent_responses": [],
+        "reference": "The weather in New York is sunny with a temperature of 25 degrees Celsius (41 degrees Fahrenheit)."
+      }
+    ],
+    "initial_session": {
+      "state": {},
+      "app_name": "weather_agent",
+      "user_id": "user"
+    }
+  }
+]
